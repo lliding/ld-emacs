@@ -1,0 +1,45 @@
+[submodule "site-lisp/extensions-submodule/go-mode.el"]
+	path = site-lisp/extensions-submodule/go-mode.el
+	url = git@github.com:dominikh/go-mode.el.git
+[submodule "site-lisp/extensions-submodule/jsonian"]
+	path = site-lisp/extensions-submodule/jsonian
+	url = git@github.com:iwahbe/jsonian.git
+[submodule "site-lisp/extensions-submodule/ace-window"]
+	path = site-lisp/extensions-submodule/ace-window
+	url = git@github.com:abo-abo/ace-window.git
+[submodule "site-lisp/extensions-submodule/dash.el"]
+	path = site-lisp/extensions-submodule/dash.el
+	url = git@github.com:magnars/dash.el.git
+[submodule "site-lisp/extensions-submodule/avy"]
+	path = site-lisp/extensions-submodule/avy
+	url = git@github.com:abo-abo/avy.git
+[submodule "site-lisp/extensions-submodule/emacs-which-key"]
+	path = site-lisp/extensions-submodule/emacs-which-key
+	url = git@github.com:justbur/emacs-which-key.git
+[submodule "site-lisp/extensions-submodule/lua-mode"]
+	path = site-lisp/extensions-submodule/lua-mode
+	url = git@github.com:immerrr/lua-mode.git
+[submodule "site-lisp/extensions-submodule/markdown-mode"]
+	path = site-lisp/extensions-submodule/markdown-mode
+	url = git@github.com:jrblevin/markdown-mode.git
+[submodule "site-lisp/extensions-submodule/modus-themes"]
+	path = site-lisp/extensions-submodule/modus-themes
+	url = git@github.com:protesilaos/modus-themes.git
+[submodule "site-lisp/extensions-submodule/swiper"]
+	path = site-lisp/extensions-submodule/swiper
+	url = git@github.com:abo-abo/swiper.git
+[submodule "site-lisp/extensions-submodule/web-mode"]
+	path = site-lisp/extensions-submodule/web-mode
+	url = git@github.com:fxbois/web-mode.git
+[submodule "site-lisp/extensions-submodule/yasnippet"]
+	path = site-lisp/extensions-submodule/yasnippet
+	url = git@github.com:joaotavora/yasnippet.git
+[submodule "site-lisp/extensions-submodule/multiple-cursors.el"]
+	path = site-lisp/extensions-submodule/multiple-cursors.el
+	url = git@github.com:magnars/multiple-cursors.el.git
+[submodule "site-lisp/extensions-submodule/citre"]
+	path = site-lisp/extensions-submodule/citre
+	url = git@github.com:universal-ctags/citre.git
+[submodule "site-lisp/extensions-submodule/company-mode"]
+	path = site-lisp/extensions-submodule/company-mode
+	url = git@github.com:company-mode/company-mode.git
