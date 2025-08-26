@@ -33,7 +33,7 @@
      (t
       (force-indent-line)))))
 
-(defun un-indent-line ()
+(defun unindent-line ()
   (interactive)
   (let (col)
     (save-excursion
@@ -51,13 +51,13 @@
       (force-indent-line))
     (forward-line 1)))
 
-(defun un-indent-region (start stop)
+(defun unindent-region (start stop)
   (interactive "r")
   (setq stop (copy-marker stop))
   (goto-char start)
   (while (< (point) stop)
     (unless (and (bolp) (eolp))
-      (un-indent-line))
+      (unindent-line))
     (forward-line 1)))
 
 (defun ld-indent ()
@@ -68,13 +68,13 @@
         (setq deactivate-mark nil))
     (indent-line)))
 
-(defun ld-un-indent ()
+(defun ld-unindent ()
   (interactive)
   (if (use-region-p)
       (save-excursion
-        (un-indent-region (region-beginning) (region-end))
+        (unindent-region (region-beginning) (region-end))
         (setq deactivate-mark nil))
-    (un-indent-line)))
+    (unindent-line)))
 
 (provide 'force-indent)
 

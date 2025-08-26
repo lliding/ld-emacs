@@ -12,7 +12,7 @@
 
   ;; from local extensions
   ;; firstly loaded part
-  (require 'init-theme)
+  (require 'init-font)
   (require 'lazy-load)
   (require 'init-generic)
   (require 'ld-tools)
@@ -27,11 +27,13 @@
   (require 'init-org-todo)
   (require 'init-org)
   (require 'init-proxy)
-  (require 'init-swiper)
   (require 'init-time)
   (require 'init-undo-tree)
-  (require 'init-which-key)
   (require 'init-yasnippet)
+  
+  (when *emacs30*
+    (require 'init-theme)
+    (require 'init-which-key))
 
   ;; restore session
   (require 'init-session)

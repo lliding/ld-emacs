@@ -33,6 +33,9 @@
 (global-visual-line-mode t)
 (setq word-wrap-by-category t) ;; enhanced CJK word wrap since Emacs28
 
+;; warning in opening large file
+(setq large-file-warning-threshold (* 20 1024 1024))
+
 ;; line number and column number
 (global-display-line-numbers-mode t) ;; show line numbers in every mode
 (column-number-mode t) ;; show column number

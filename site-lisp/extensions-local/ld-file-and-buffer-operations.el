@@ -6,9 +6,15 @@
   "Automatic format current buffer."
   (interactive)
   (cond
+   ;; judge by mode
    ((derived-mode-p 'python-mode)
     (message "Don't indent python buffer. It will mess up the code syntax."))
    ((derived-mode-p 'yaml-mode)
+    (message "Don't indent yaml buffer. It will mess up the code syntax."))
+   ;; judge by buffer name
+   ((string-suffix-p ".yml" (buffer-name) t)
+    (message "Don't indent yaml buffer. It will mess up the code syntax."))
+   ((string-suffix-p ".yaml" (buffer-name) t)
     (message "Don't indent yaml buffer. It will mess up the code syntax."))
    (t
     (save-excursion
@@ -66,6 +72,15 @@
         (deactivate-mark)))
     (switch-to-buffer current-element)
     (deactivate-mark)))
+
+; ---
+
+(defun ld-find-file-in-root (file)
+  "Find file with root."
+  (interactive "fFind file as sudo: ")
+  (require 'tramp)
+  (tramp-cleanup-all-connections)
+  (find-file (concat "/sudo:root@localhost:" file)))
 
 (provide 'ld-buffer-operations)
 

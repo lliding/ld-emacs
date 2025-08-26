@@ -90,8 +90,8 @@
         (setq jumped (read-number
 		      (let ((lines (line-number-at-pos (point-max))))
 			(format (if goto-line-preview--relative-p
-				    "[%d] Goto line relative: (%d to %d) "
-				  "[%d] Goto line: (%d to %d) ")
+				    "[%d] Goto line preview relative: (%d to %d) "
+				  "[%d] Goto line preview: (%d to %d) ")
 				goto-line-preview--prev-line-num
 				(max 0 (min 1 lines))
 				lines))))

@@ -759,7 +759,7 @@
 (require 'gv)
 
 
-
+
 ;;; =====================================================================
 ;;;              Compatibility hacks for older Emacsen
 
@@ -861,7 +861,7 @@
 
 
 
-
+
 ;;; =====================================================================
 ;;;              Global variables and customization options
 
@@ -1149,7 +1149,7 @@ in visualizer."
 
 
 
-
+
 ;;; =================================================================
 ;;;                          Default keymaps
 
@@ -1283,7 +1283,7 @@ in visualizer."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                     Undo-tree data structure
 
@@ -1562,7 +1562,7 @@ in visualizer."
 
 
 
-
+
 ;;; =====================================================================
 ;;;              Basic undo-tree data structure functions
 
@@ -1691,7 +1691,7 @@ Comparison is done with `eq'."
 
 
 
-
+
 ;;; =====================================================================
 ;;;             Undo list and undo changeset utility functions
 
@@ -1915,7 +1915,7 @@ Comparison is done with `eq'."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                History discarding utility functions
 
@@ -2103,7 +2103,7 @@ which is defined in the `warnings' library.\n")
 
 
 
-
+
 ;;; =====================================================================
 ;;;                   Visualizer utility functions
 
@@ -2226,7 +2226,7 @@ which is defined in the `warnings' library.\n")
 
 
 
-
+
 ;;; =====================================================================
 ;;;                  Undo-in-region utility functions
 
@@ -2722,7 +2722,7 @@ of either NODE itself or some node above it in the tree."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                        Undo-tree commands
 
@@ -3171,7 +3171,7 @@ Argument is a character, naming the register."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                       Undo-tree menu bar
 
@@ -3213,7 +3213,7 @@ Argument is a character, naming the register."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                    Persistent storage commands
 
@@ -3416,7 +3416,7 @@ Note this will overwrite any existing undo history."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                    Visualizer drawing functions
 
@@ -4062,7 +4062,7 @@ Note this will overwrite any existing undo history."
 
 
 
-
+
 ;;; =====================================================================
 ;;;                        Visualizer modes
 
@@ -4111,7 +4111,7 @@ Within the undo-tree visualizer, the following keys are available:
 
 
 
-
+
 ;;; =====================================================================
 ;;;                        Visualizer commands
 
@@ -4442,7 +4442,7 @@ specifies `saved', and a negative prefix argument specifies
 
 
 
-
+
 ;;; =====================================================================
 ;;;                 Visualizer selection mode commands
 
@@ -4565,7 +4565,7 @@ specifies `saved', and a negative prefix argument specifies
 
 
 
-
+
 ;;; =====================================================================
 ;;;                      Visualizer diff display
 
