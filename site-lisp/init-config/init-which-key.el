@@ -1,6 +1,5 @@
 ;; -*- coding: utf-8; -*-
 ;;; Require:
-(require 'which-key)
 
 ;;; Code:
 (setq which-key-show-early-on-C-h t)

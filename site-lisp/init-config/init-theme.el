@@ -1,18 +1,7 @@
 ;; -*- coding: utf-8; -*-
 ;;; Require:
-(require 'modus-themes)
 
 ;;; Code:
-;; font
-(when (and window-system *win64*)
-  (let ((default-font (font-spec :name "Sarasa Fixed SC"))
-        (cn-font (font-spec :name "Sarasa Fixed SC")))
-    (set-face-attribute 'default nil :font default-font :height 116)
-    (dolist (charset '(kana han symbol cjk-misc bopomofo))
-      (set-fontset-font t charset cn-font)))
-  (set-face-font 'fixed-pitch "Sarasa Fixed SC"))
-
-;; theme
 ;; In all of the following, WEIGHT is a symbol such as `semibold',
 ;; `light', `bold', or anything mentioned in `modus-themes-weights'.
 (setq modus-themes-italic-constructs t
